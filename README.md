@@ -46,4 +46,4 @@
 
 个人理解该题的设计思路是lsm存储的分区合并，这种场景下主键通常不会特别不均匀，所以采用思路2。如下图所示：
 
-![base_merge](doc/split_job.png)
+![split_job](doc/split_job.png)
